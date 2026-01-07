@@ -1,5 +1,5 @@
 ---
-title: Data 89 Course Notes
+title: Data 145 Course Notes
 ---
 
 These notes are currently in development.

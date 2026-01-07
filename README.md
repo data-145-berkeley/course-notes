@@ -1,6 +1,8 @@
 # Data 145 Course Notes
 
-This textbook was built with [Jupyter Book (MyST flavor)](https://jupyterbook.org/en/stable/intro.html). 
+[![Jupyter Book (via myst) GitHub Pages Deploy](https://github.com/data-145-berkeley/course-notes/actions/workflows/deploy.yml/badge.svg)](https://github.com/data-145-berkeley/course-notes/actions/workflows/deploy.yml) [![Accessibility Checks](https://github.com/data-145-berkeley/course-notes/actions/workflows/a11y.yml/badge.svg)](https://github.com/data-145-berkeley/course-notes/actions/workflows/a11y.yml)
+
+Course notes are built with [Jupyter Book (MyST flavor)](https://jupyterbook.org/en/stable/intro.html). 
 
 ## Structure
 
@@ -35,7 +37,7 @@ These steps detail the process you should go through every time you update the t
 6. **Push:**  Stage any changes you made (i.e. using `git add [file]`, `git add -u`, `git add .`, etc.), commit your changes with `git commit -m "[description]"` (please include a useful description of any changes you made), and push to the repository with `git push origin main`. Deployment will happen automatically via GitHub Actions.
 
 ### Deployment
-The textbook is hosted on GitHub Pages and deployed automatically everytime you push to the main branch via [this workflow]().
+The textbook is hosted on GitHub Pages and deployed automatically everytime you push to the main branch via [this workflow](https://github.com/data-145-berkeley/course-notes/actions/workflows/deploy.yml).
 
 ## Notes
 The [Jupyter Book](https://jupyterbook.org/stable/) website has lots of information about Jupyter Book. This textbook uses Jupyter Book v2 built on [MyST](https://mystmd.org/).
